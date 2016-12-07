@@ -41,7 +41,7 @@ Mailin object instance, use `getClient()` method of component
 <?php 
 $mailin = \Yii::$app->mailin->getClient();
 
-// Use $mailin object as 
+// Use $mailin object 
 ?>
 ```
 
