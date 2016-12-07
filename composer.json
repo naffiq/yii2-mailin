@@ -1,0 +1,22 @@
+{
+    "name": "naffiq/yii2-mailin",
+    "description": "SendinBlue Mailin wrapper for Yii2 framework",
+    "type": "library",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "mailin-api/mailin-api-php" : "^v1.0.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Galymzhan Abdugalimov",
+            "email": "abdu.galymzhan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "naffiq\\mailin\\": "src"
+        }
+    }
+}
