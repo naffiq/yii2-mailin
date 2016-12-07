@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "yiisoft/yii2": "^2.0",
-        "mailin-api/mailin-api-php" : "^v1.0.4"
+        "mailin-api/mailin-api-php" : "^v1.0.4",
+        "ext-curl": "*"
     },
     "license": "MIT",
     "authors": [
