@@ -9,10 +9,10 @@ Preferred way to install is through [composer](http://getcomposer.org)
 $ composer require naffiq/yii2-mailin
 ```
 
-## Configuring
+## Configuration
 
 Get your API key from [SendinBlue account page](https://account.sendinblue.com/advanced/api)
-and insert it your config file as follows:
+and insert it into your config file as follows:
 
 ```php
 <?php
