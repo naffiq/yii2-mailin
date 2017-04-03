@@ -36,7 +36,7 @@ class Mailin extends Component
     {
         parent::init();
 
-        $this->mailin = new \Sendinblue\Mailin($this->apiUrl, $this->apiUrl);
+        $this->mailin = new \Sendinblue\Mailin($this->apiUrl, $this->apiKey);
     }
 
     /**
