@@ -12,7 +12,7 @@ install:
   - composer install
 
 script:
-  - phpunit --verbose $PHPUNIT_FLAGS
+  - ./vendor/bin/phpunit --verbose $PHPUNIT_FLAGS
 
 after_success:
   - vendor/bin/test-reporter

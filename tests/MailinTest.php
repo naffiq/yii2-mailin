@@ -6,7 +6,7 @@
  * Date: 4/3/17
  * Time: 2:18 PM
  */
-class MailinTest extends \PHPUnit\Framework\TestCase
+class MailinTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @var string
