@@ -26,7 +26,7 @@ return [
     'components' => [
         // ...
         'mailin' => [
-            'class' => 'naffiq\Mailin\Mailin',
+            'class' => 'naffiq\mailin\Mailin',
             'apiKey' => SENDINBLUE_API_KEY,
             // 'apiUrl' => ''
         ]
